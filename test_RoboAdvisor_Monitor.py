@@ -10,21 +10,21 @@ class test_Robo_Monitor(unittest.TestCase):
     
     def test_Monitor_SMA(self):
         
-        robo = Robo_Monitor("kbin5521@gmail.com", "Hanmeiyan!880")
+        robo = Robo_Monitor()
         result = robo.Monitor_SMA()
 
         self.assertIsNone(result)
 
     def test_Monitor_RSI(self):
 
-        robo = Robo_Monitor("kbin5521@gmail.com", "Hanmeiyan!880")
+        robo = Robo_Monitor()
         result = robo.Monitor_RSI()
         
         self.assertIsNone(result)
 
     def test_Monitor_BOLLBands(self):
 
-        robo = Robo_Monitor("kbin5521@gmail.com", "Hanmeiyan!880")
+        robo = Robo_Monitor()
         result = robo.Monitor_BOLLBands()
         
         self.assertIsNone(result)
